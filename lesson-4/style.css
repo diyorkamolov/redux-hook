@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+header{
+    background-color: #F6F5F4;
+    -webkit-box-shadow: 4px 4px 25px 3px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 25px 3px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 25px 3px rgba(34, 60, 80, 0.2);
+border: 1px solid #E0E0E0;
+}
+
+.contrainer{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #757575;
+}
+
+.right-headr{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.right-headr .avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #2B788B;
+}
+
+.right-headr .button{
+    background: transparent;
+    border: none;
+}
+
+.main-wrapper-block{
+background-color: #F6F5F4;
+width: 100%;
+}
+
+.main-wrap{
+    display: flex;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.main-left-block h2{
+    font-size: 50px;
+    width: 420px;
+}
+
+.main-right-block .main-img img{
+   width: 700px;
+}
+
+.main-left-block .main-img-left img{
+    width: 700px;
+    display: flex;
+}
+
+.main-wrap-2 {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.main-wrap-3{
+    display: flex;
+    align-items: center;
+    background-color: #F6F5F4;
+}
+
